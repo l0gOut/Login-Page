@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+h2,
+h6,
+body,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+a,
+button,
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2c5282;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #2c5282;
+}
+
+.main {
+  display: flex;
+}
+
+.container {
+  width: 50%;
+  height: 100vh;
+}
+
+.img {
+  background-image: url("image/image_1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+h6 {
+  color: #2d3748;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+
+h2 {
+  color: #1a202c;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 50px;
+  padding: 0 20px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #2d3748;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  transition: border-color 200ms;
+}
+
+label[for="email"],
+label[for="password"] {
+  margin-bottom: 11px;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text,
+.checkbox {
+  margin: 11px 0;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #81a3cc;
+}
+
+label {
+  color: #4a5568;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+
+label[for="forgot-password"] {
+  cursor: pointer;
+}
+
+.a-forgot-password {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+button {
+  height: 50px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  transition: background 200ms;
+}
+
+.login {
+  background: #04c35c;
+}
+
+.login:hover {
+  background: #20ac61;
+}
+
+.login-with-google {
+  background: #2d3748;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-with-google:hover {
+  background: #475164;
+}
+
+.login-with-google img {
+  margin-right: 11px;
+}
+
+.dont-have-account {
+  bottom: 5%;
+  position: absolute;
+}
